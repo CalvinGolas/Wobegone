@@ -1,22 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import AddressSurvey from "./AddressSurvey";
+import subject from "./subject.png";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="ApSop-header">
+        <img src={subject} className="App-logo" alt="logo" />
+        <p>Sign up for Wobegone here!</p>
+        <AddressSurvey />
       </header>
     </div>
   );

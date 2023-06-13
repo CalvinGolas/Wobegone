@@ -3,9 +3,10 @@ import "./AddressSurvey.css";
 function AddressSurvey() {
   return (
     //   Email
-    <div className="AddressSurvey">
+    <div className="Address-survey">
       <input type="email" id="email" name="email" />
-      // Street // Unit // City // State // Zip Code
+      {/*// Street // Unit // City // State // Zip Code*/}
+      <br />
       <button>Submit</button>
     </div>
   );

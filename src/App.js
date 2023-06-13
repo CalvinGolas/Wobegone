@@ -11,6 +11,7 @@ function App() {
         <img src={subject} className="App-logo" alt="logo" />
         <p>Sign up for Wobegone here!</p>
         {/*  TODO: Insert description of service */}
+        Putting some place
         <AddressSurvey />
       </header>
     </div>
